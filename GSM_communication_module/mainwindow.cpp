@@ -67,6 +67,5 @@ void MainWindow::data_change_from_settings(QSerialPortInfo port_data, QSerialPor
 }
 void MainWindow::on_toolButton_clicked()
 {
-    qDebug() << QCoreApplication::arguments().at(1);
     settingsWindow->show();
 }
